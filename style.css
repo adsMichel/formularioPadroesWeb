@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background-color: rgb(170, 170, 170);
+}
+
+main {
+    margin: 10px 120px 10px 120px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.questoes {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #727272;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 600;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .questoes:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .respostas {
+    padding: 5px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
