@@ -10,18 +10,31 @@ body {
   }
   
   main {
-    margin: 10px;
-    overflow-x: auto;
+    display: block;
+    margin: 10px auto;
+    width: 80vw;
+    /* overflow-x: auto; */
   }
   
   table {
-    background-color: #ccc;
+    background-color: #eee;
     padding: 20px;
+    width: 100%;
 }
 
 th {
   padding: 10px;
-  border-top: 1px solid #333;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left,black, red,black);
+  color: brown;
+}
+
+.borda-topo {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
 }
 
 td {
@@ -31,6 +44,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #dee0ff;
   border: 1px solid #333;
+  color: brown;
 }
