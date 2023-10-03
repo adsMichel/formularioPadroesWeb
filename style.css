@@ -29,8 +29,7 @@ body {
   }
   
   table {
-    border-radius: 3px;
-    padding: 20px;
+    padding: 5px;
     width: 100%;
   }
   
@@ -57,7 +56,6 @@ body {
 
 td {
   border: 1px solid #333;
-  border-radius: 5px;
   padding: 8px 5px;
   border-style: solid;
   border-image-slice: 1;
