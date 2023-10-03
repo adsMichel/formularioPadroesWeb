@@ -12,8 +12,8 @@ body {
   header {
     display: flex;
     justify-content: center;
-    margin: 20px;
     width: 100vw;
+    padding: 20px 0;
   }
 
   h1 {
@@ -23,7 +23,7 @@ body {
   main {
     display: block;
     margin: 10px auto;
-    width: 80vw;
+    width: 100vw;
     /* overflow-x: auto; */
   }
   
@@ -35,7 +35,7 @@ body {
 }
 
 th {
-  padding: 10px;
+  padding: 10px 0 30px 0;
   border: 2px solid;
   border-image-slice: 1;
   border-width: 2px;
@@ -55,7 +55,6 @@ td {
   padding: 8px 5px;
   font-weight: 600;
 }
-
 
 tr:nth-child(even) {
   background-color: #ffdddd;
