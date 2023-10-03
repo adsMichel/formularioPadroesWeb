@@ -9,6 +9,17 @@ body {
     font-size: 1rem;
   }
   
+  header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
   main {
     display: block;
     margin: 10px auto;
@@ -18,6 +29,7 @@ body {
   
   table {
     background-color: #eee;
+    border-radius: 3px;
     padding: 20px;
     width: 100%;
 }
@@ -41,10 +53,11 @@ td {
   border: 1px solid #333;
   border-radius: 5px;
   padding: 8px 5px;
+  font-weight: 600;
 }
 
+
 tr:nth-child(even) {
-  background-color: #dee0ff;
-  border: 1px solid #333;
+  background-color: #ffdddd;
   color: brown;
 }
