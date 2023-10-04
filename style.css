@@ -86,7 +86,8 @@ textarea{
 
 .elements {
   display: block;
-  padding: 2px 0;
+  padding: 3px 0;
+  align-items: center;
 }
 
 .elements [type="text"], .elements [type="email"] {
