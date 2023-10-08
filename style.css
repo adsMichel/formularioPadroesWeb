@@ -108,7 +108,13 @@ li + p {
 }
 
 .table-form {
-  width: 100vw;
+  width: 350px;
+  margin: 0 auto 40px;
+  padding: 10px;
+}
+
+.div-form {
+  width: 350px;
   margin: 0 auto 40px;
   padding: 10px;
   border: 1px solid #333;
