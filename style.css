@@ -18,8 +18,9 @@
   header {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    justify-content: center;
     text-align: center;
+    width: 100vw;
     padding: 20px 0;
   }
 
@@ -173,7 +174,6 @@ a {
 @media screen and (max-width: 576px) {
   header {
     padding: 10px;
-    color: blue;
   }
 
   h1 {
