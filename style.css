@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -143,4 +144,17 @@ select, option {
   width: 60px;
   height: 30px;
   text-align: center;
+}
+
+#btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  padding: 15px;
+  background-color: #f5adad;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
 }
