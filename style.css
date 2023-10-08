@@ -38,8 +38,8 @@ body {
   }
   
   .table-head {
-  background-color: #eee;
   text-align: center;
+  margin-top: 10px;
   padding: 20px 0 25px 0;
   border-style: solid;
   border-image-slice: 1;
@@ -63,8 +63,42 @@ td {
   border-image-source: linear-gradient(to left,black, red,black);
 }
 
-.table-members tr:nth-child(even) {
+.table-members tr:nth-child(even) ,li:nth-child(even) {
   color: brown;
+}
+
+ul {
+  padding-left: 10px;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+ol {
+  margin-left: 10px;
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+}
+
+li {
+  margin-bottom: 2px;
+  border: 1px solid #333;
+  padding: 8px 5px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left,black, red,black);
+}
+
+li + p {
+  margin: 2px 0 10px 0;
+  color: brown;
+  background-color: #e0e0e0;
+  border: 1px solid #333;
+  padding: 8px 5px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left,black, red,black);
 }
 
 .table-questions tr:nth-child(even) {
@@ -74,8 +108,10 @@ td {
 }
 
 .table-form {
-  width: 40vw;
-  margin: 0 auto;
+  width: 100vw;
+  margin: 0 auto 40px;
+  padding: 10px;
+  border: 1px solid #333;
 }
 
 textarea{
@@ -91,5 +127,5 @@ textarea{
 }
 
 .elements [type="text"], .elements [type="email"] {
-  width: 300px;
+  width: 100%;
 }
