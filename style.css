@@ -151,19 +151,20 @@ select, option {
 
 .btn {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 10px;
 }
 
-.btn button {
-  border: none;
-  padding: 15px;
-  background-color: #f5adad;
-  color: black;
+.btn button, a {
+  background-color: #e0e0e0;
+  color: #333;
   font-size: 16px;
-  cursor: pointer;
-  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px;
   bottom: 10px;
+  border: 1px solid brown;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 a {
@@ -193,15 +194,5 @@ a {
     width: 100%;
     font-size: 1.15rem;
   }
-
-}
-
-/* Medium */
-@media screen and (min-width: 768px) {
-
-}
-
-/* Large */
-@media screen and (min-width: 992px) {
 
 }
